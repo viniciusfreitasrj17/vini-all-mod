@@ -5,7 +5,7 @@ try {
 	
 	app.get('/', (req, res) => { res.send('Test get') })
 
-	app.listen(3000, () => console.log('Exe..'))
+	// app.listen(3000, () => console.log('Exe..'))
 
 } catch(e) {
 	throw e.message
