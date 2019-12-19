@@ -2,6 +2,10 @@
   "name": "vini-all-mod",
   "version": "1.0.0",
   "description": "Installer Some Modules for Development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viniciusfreitasrj17/vini-all-mod"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js",
