@@ -1,0 +1,21 @@
+{
+  "name": "vini-all-mod",
+  "version": "1.0.0",
+  "description": "Installer Some Modules for Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "prepublishOnly": "npm run test"
+  },
+  "keywords": [
+    "express",
+    "all",
+    "body-parser"
+  ],
+  "author": "Vinicius",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
